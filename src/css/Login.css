@@ -1,0 +1,41 @@
+.login-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 380px;
+  background: rgb(209, 81, 81);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px #5b4040;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-box input,
+.login-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d91313;
+  border-radius: 5px;
+}
+
+.login-box textarea {
+  height: 120px;
+}
+
+.login-box button {
+  width: 100%;
+}
+
+.login-box p {
+  margin-top: 20px;
+  text-align: center;
+}

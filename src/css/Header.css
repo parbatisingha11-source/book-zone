@@ -1,0 +1,30 @@
+.header {
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight:700;
+  Color:#217d78;
+  font-style:italic;
+}
+
+.header nav {
+  display: flex;
+  gap: 25px;
+}
+
+.header nav a {
+  color: #222;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  color: #555;
+}

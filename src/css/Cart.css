@@ -1,0 +1,39 @@
+.cart-page {
+  padding: 40px 60px;
+}
+
+.cart-page h1 {
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  background: rgb(123, 175, 125);
+  padding: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-radius: 8px;
+}
+
+.cart-item img {
+  width: 70px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.cart-item div {
+  flex: 1;
+}
+
+.cart-total {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.order-card {
+  background: rgb(230, 228, 234);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
