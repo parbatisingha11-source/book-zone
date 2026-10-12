@@ -19,9 +19,9 @@ const Orders = ({ user, authLoading }) => {
   return (
     <div className="cart-page">
 
-      <h1>📦 My Orders</h1>
+      <h1 style={{color:"white"}}>📦 My Orders</h1>
 
-      {!user && <p>Please <Link to="/login">log in</Link> to see your orders.</p>}
+      {!user && <p style={{color:"white"}}>Please <Link to="/login">log in</Link> to see your orders.</p>}
       {error && <p role="alert">{error}</p>}
       {user && orders.length === 0 && !error && <p>You have no orders yet.</p>}
       {orders.map((order) => (

@@ -9,8 +9,8 @@ const AdminLayout = ({ user, authLoading }) => {
   if (!user || user.role !== "admin") {
     return (
       <main className="admin-content">
-        <h2>Administrator access required</h2>
-        <p>Please log in with an administrator account.</p>
+        <h2 style={{color:"white"}}>Administrator access required</h2>
+        <p style={{color:"white"}}>Please log in with an administrator account.</p>
         <Link to="/login">Go to login</Link>
       </main>
     );
@@ -21,7 +21,7 @@ const AdminLayout = ({ user, authLoading }) => {
 
       <aside className="sidebar">
 
-        <h2>📚 ​🇦​​🇮​ ​🇩​​🇷​​🇮​​🇻​​🇪​​🇳​ ​🇩​​🇮​​🇬​​🇮​​🇹​​🇦​​🇱​ ​🇱​​🇮​​🇧​​🇷​​🇦​​🇷​​🇾​ ​🇦​​🇳​​🇩​ ​🇧​​🇴​​🇴​​🇰​ ​🇷​​🇪​​🇨​​🇴​​🇲​​🇲​​🇪​​🇳​​🇩​​🇦​​🇹​​🇮​​🇴​​🇳​ ​🇸​​🇾​​🇸​​🇹​​🇪​​🇲​</h2>
+        <h2>📚🅑🅞🅞🅚🅩🅞🅝🅔  ​Admin Panel​</h2>
 
         <p>Admin Panel</p>
 

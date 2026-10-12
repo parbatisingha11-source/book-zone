@@ -18,7 +18,7 @@ const Cart = ({ cart, removeFromCart, onPlaceOrder, authLoading, user }) => {
   return (
     <div className="cart-page">
 
-      <h1>🛒 My Cart</h1>
+      <h1 style={{color:"white"}}>🛒 My Cart</h1>
 
       {!user && (
         <p>
@@ -28,7 +28,7 @@ const Cart = ({ cart, removeFromCart, onPlaceOrder, authLoading, user }) => {
 
       {cart.length === 0 ? (
         <div>
-          <h3>Your cart is empty.</h3>
+          <h3 style={{color:"white"}}>Your cart is empty.</h3>
 
           <Link to="/">
             <button>Shop Now</button>
@@ -63,7 +63,7 @@ const Cart = ({ cart, removeFromCart, onPlaceOrder, authLoading, user }) => {
 
           <div className="cart-total">
 
-            <h2>
+            <h2  style={{color:"white"}}>
               Total: ₹{total}
             </h2>
 

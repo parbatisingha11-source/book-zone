@@ -1,20 +1,27 @@
 .header {
-  height: 70px;
-  background: #ffffff;
+  height: 85px;
+  background: #a38674;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
-  box-shadow: 0 2px 8px #ddd;
+  box-shadow: 0 2px 8px #c90f0f;
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 50px;
   font-weight:700;
   Color:#217d78;
   font-style:italic;
 }
-
+.logo img {
+  height: 114px;
+  width: auto;
+  background: transparent !important;
+  padding: 0;
+  border-radius: 0;
+  object-fit: contain;
+}
 .header nav {
   display: flex;
   gap: 25px;
@@ -26,5 +33,5 @@
 }
 
 .header nav a:hover {
-  color: #555;
+  color: #e4dcdc;
 }

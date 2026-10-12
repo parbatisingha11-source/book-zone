@@ -7,7 +7,7 @@
 }
 
 .cart-item {
-  background: rgb(123, 175, 125);
+  background: rgb(96, 107, 150);
   padding: 20px;
   margin-bottom: 15px;
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .order-card {
-  background: rgb(230, 228, 234);
+  background: rgb(162, 160, 165);
   padding: 25px;
   margin-bottom: 20px;
   border-radius: 8px;

@@ -8,6 +8,8 @@
   background: #222;
   color: rgb(181, 165, 165);
   padding: 25px 15px;
+  background: #110b0b;
+   min-height:200vh;
 }
 
 .sidebar h2 {
@@ -15,13 +17,13 @@
 }
 
 .sidebar p {
-  color: #aaa;
+  color: #10bc33;
   margin-bottom: 25px;
 }
 
 .sidebar a {
   display: block;
-  color: white;
+  color: rgb(31, 219, 72);
   padding: 13px;
   margin-bottom: 8px;
   border-radius: 5px;
@@ -34,6 +36,7 @@
 .admin-content {
   flex: 1;
   padding: 40px;
+
 }
 
 .dashboard {
@@ -44,7 +47,7 @@
 }
 
 .dashboard-card {
-  background: white;
+  background: rgb(224, 219, 216);
   padding: 30px;
   border-radius: 10px;
   text-align: center;

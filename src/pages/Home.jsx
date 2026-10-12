@@ -17,7 +17,7 @@ const Home = ({ addToCart }) => {
     <div className="home">
 
       <section className="hero">
-        <h1>📚 AI DRIVEN DIGITAL LIBRARY AND BOOK RECOMMENDATION SYSTEM</h1>
+        <h1>📚  ​🇦​​🇮​ ​🇩​​🇷​​🇮​​🇻​​🇪​​🇳​ ​🇩​​🇮​​🇬​​🇮​​🇹​​🇦​​🇱​ ​🇱​​🇮​​🇧​​🇷​​🇦​​🇷​​🇾​ ​🇦​​🇳​​🇩​ ​🇧​​🇴​​🇴​​🇰​ ​🇷​​🇪​​🇨​​🇴​​🇲​​🇲​​🇪​​🇳​​🇩​​🇦​​🇹​​🇮​​🇴​​🇳​ ​🇸​​🇾​​🇸​​🇹​​🇪​​🇲</h1>
 
         <p>
           Discover amazing E-Books and start reading today.
@@ -28,7 +28,7 @@ const Home = ({ addToCart }) => {
         </button>
       </section>
 
-      <h2 className="section-title" id="popular-books">
+      <h2 className="section-title" id="popular-books" style={{color:"white"}}>
         Popular E-Books
       </h2>
 

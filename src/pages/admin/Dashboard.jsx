@@ -12,7 +12,7 @@ const Dashboard = () => {
   return (
     <div>
 
-      <h1>Admin Dashboard</h1>
+      <h1 style={{color:"white"}}>Admin Dashboard</h1>
       {error && <p role="alert">{error}</p>}
 
       {stats && (
